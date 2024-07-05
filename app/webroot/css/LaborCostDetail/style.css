@@ -1,0 +1,339 @@
+
+/* div#header{
+    position: fixed;
+    width: 100%;
+} */
+form{
+    width: 100%;
+}
+
+div.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .content_container{
+    margin-top: 65px;
+} */
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+}
+.register_container{
+    padding: 0px 30px;
+}
+
+span.glyphicon-info-sign{
+    font-size: 35px;
+    color: #F7C600;  
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#info-text{
+    color:#808080;
+}
+#info-text p{
+    margin-bottom: 5px;
+}
+ol {
+    margin-left: 0;
+    margin-top: 0.7rem;
+    padding-left: 1.5rem;
+}
+.popover {
+    /* top: 50px !important; */
+    max-width: 25% !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .popover {
+        max-width: 50% !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .popover {
+        max-width: 70% !important;
+    }
+}
+
+.alert-danger{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.btn_sumisho_set {
+    min-width: 100px;
+    /* background-color: var(--btncolor1);
+    color: #fff; */
+}
+
+input{
+    height: 100%;
+}
+
+/* button[disabled]:hover {
+    pointer-events: none;
+} */
+button[disabled]:hover {
+    outline: none !important;
+    transform: translateY(0px);
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 0px 0px #adb5bd;
+}
+
+/* Table Design  */
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    /* position: relative; */
+}
+ /*End Table Design  */
+
+/* Table Row Design */
+tr.total_row{
+    font-weight: bold;
+}
+/*End Table Row Design */
+
+/* Table header design */
+th, .t3_header {
+    padding: 5px 0px;
+    text-align: center;
+}
+
+/* .bb-dotted {
+    border-bottom: 1px dotted #333;
+} */
+
+.bb-dotted td, .rowspanned {
+    border-bottom: 1px dashed #333;
+}
+
+.no-tborder td {
+    border-top: none !important;
+}
+
+table.bu_analysis {
+    border-collapse: separate;
+}
+
+#table_one th {
+    /* word-wrap: break-word; */
+    height: 50px;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+}
+
+table tr th,
+table tr td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 65px;
+}
+table th.check {
+    width: 32px !important;
+}
+table thead tr th.gap {
+    border-color: #fff;
+    background-color: #fff;
+}
+/* End Table header design */
+table .blank-cell {
+	width: 30px;
+    text-align: right;
+}
+
+/* Table Data Design  */
+td {
+    height: 20px !important;
+    word-wrap: break-word;
+}
+
+td.text {
+    padding: 5px;
+}
+
+td.number {
+    padding: 5px;
+    text-align: right;
+}
+
+td.blank {
+    border: none!important;
+}
+/* background color like th  */
+td.bg-th{
+    background-color: rgb(172, 185, 202);
+}
+
+#table_one tr.total_row td{
+    border-top: 1.1px solid;
+    border-bottom-color: #666;
+    border-top-color: #666!important;
+}
+
+#table_one tr:last-child td {
+    border-left: 1.1px soid;
+    border-left-color: #666;
+}
+
+/* tr:nth-child(even) {border-bottom: 1.5px dotted black;} */
+/*End Table Data Design  */
+
+.left-bold-border, .x-bold-border{
+    border-left: 2px solid #333!important;
+}
+
+.right-bold-border, .x-bold-border{
+    border-right: 2px solid #333!important;
+}
+
+.top-bold-border, .y-bold-border{
+    border-top: 2px solid #333!important;
+}
+.bottom-bold-border, .y-bold-border{
+    border-bottom: 2px solid #333!important;
+}
+
+
+/* Input In Table Cell Design  */
+input.amount_input,
+input.comment_input {
+    text-align: right;
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0px none;
+    ;
+    outline-width: 0;
+    text-align: right;
+    background-color: rgb(255, 255, 204);
+    cursor: auto;
+}
+
+table#table_one input.comment_input {
+    text-align: left;
+}
+
+input,
+td {
+    font-size: 12px !important;
+}
+/*End Input In Table Cell Design  */
+
+.fl-scrolls {
+    margin-bottom: 40px;/* modify floating scroll bar */
+	z-index: 1;
+}
+
+.pointer {
+    pointer-events: none;
+}
+
+#overlay {
+    display: none;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#overlay img {
+    position: relative;
+    top: 40%;
+    left: 45%;
+}
+
+#load {
+
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.negative {
+    color: #f31515;
+}
+
+tbody th {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.jconfirm-box.jconfirm-type-yellow {
+    border-top: solid 7px #F7C600;
+}
+
+.jconfirm-box.jconfirm-type-yellow>.jconfirm-title-c>.jconfirm-icon-c {
+    color: #F7C600 !important;
+}
+
+.tooltip-inner {
+    background: #ffd2d2;
+    color: #ff3333;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #ffd2d2;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #ffd2d2;
+}
+.bg-color {
+    background-color: #ffd2d2;
+    color: #ff3333;
+}
+.error {
+	background: #ffd2d2;
+	color: #ff3333;
+	padding: 1rem 2rem;
+	margin-bottom: 30px;
+	font-family: var(--font_family);
+	border-radius: 0.5rem;
+}
+.new_user {
+    background-color: rgb(255, 255, 204);
+}
+.position_name {
+    background-color: rgb(255, 255, 204);
+    font-size: 11px;
+}
+.clone_remove {
+    width: 30px;
+    height: 30px;
+}
+/* .message {
+    background: var(--menutxthover);
+    padding: 1rem 2rem;
+    margin-bottom: 30px;
+    font-family: var(--font_family);
+    color: #035956;
+    border-radius: 0.5rem;
+} */
+.noti-msg {
+    padding: 1rem;
+    background-color: #cef6d6;
+    border: 1px solid #3D7749;
+    border-radius: 0.5rem;
+    color: #3D7749;
+}
+.hidden-column {
+    display: none;
+}

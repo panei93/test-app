@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+$autoload = [
+        realpath(__DIR__.'/../vendor/autoload.php'),
+        realpath(__DIR__.'/../../../autoload.php'),
+];
+
+foreach ($autoload as $item) {
+    if ($item !== false) {
+        require_once $item;
+        break;
+    }
+}
+
+$application = new \Symfony\Component\Console\Application();
+$commandList = new \Magium\Configuration\Console\Symfony\CommandList();
+$commandList->addCommands($application);
+$application->run();

@@ -1,0 +1,70 @@
+2023-01-18 09:43:59 Debug: 2
+2023-01-18 09:44:29 Debug: 2
+2023-01-18 09:44:56 Debug: 2
+2023-01-18 09:44:58 Debug: 3
+2023-01-18 09:46:23 Debug: 2
+2023-01-18 09:46:24 Debug: 3
+2023-01-18 09:55:09 Debug: 2
+2023-01-18 09:55:48 Debug: 2
+2023-01-18 09:56:25 Debug: 2
+2023-01-18 09:56:59 Debug: 2
+2023-01-18 09:57:23 Debug: 2
+2023-01-18 09:57:56 Debug: 2
+2023-01-18 10:00:33 Debug: 2
+2023-01-18 10:01:17 Debug: 2
+2023-01-18 10:09:48 Debug: 2
+2023-01-18 10:09:49 Debug: 3
+2023-01-18 10:10:17 Debug: 2
+2023-01-18 10:10:18 Debug: 3
+2023-01-18 10:10:46 Debug: 2
+2023-01-18 10:10:47 Debug: 3
+2023-01-18 10:11:29 Debug: 2
+2023-01-18 10:11:35 Debug: 3
+2023-01-18 10:15:48 Debug: 2
+2023-01-18 10:15:51 Debug: 3
+2023-01-18 10:16:34 Debug: 2
+2023-01-18 10:16:37 Debug: 3
+2023-01-18 10:17:11 Debug: 2
+2023-01-18 10:17:20 Debug: 3
+2023-01-18 10:18:01 Debug: 2
+2023-01-18 10:18:04 Debug: 3
+2023-01-18 10:18:45 Debug: 2
+2023-01-18 10:18:46 Debug: 3
+2023-01-18 10:19:12 Debug: 2
+2023-01-18 10:19:13 Debug: 3
+2023-01-18 10:19:39 Debug: 2
+2023-01-18 10:19:42 Debug: 3
+2023-01-18 10:20:20 Debug: 2
+2023-01-18 10:20:23 Debug: 3
+2023-01-18 10:20:57 Debug: 2
+2023-01-18 10:21:00 Debug: 3
+2023-01-19 02:56:54 Debug: 2
+2023-01-19 02:56:55 Debug: 3
+2023-01-19 02:57:22 Debug: 2
+2023-01-19 02:57:23 Debug: 3
+2023-01-19 06:06:48 Debug: 2
+2023-01-19 06:07:03 Debug: 2
+2023-01-19 09:21:20 Debug: 2
+2023-01-19 09:21:22 Debug: 3
+2023-01-19 09:21:30 Debug: 4
+2023-01-19 09:22:40 Debug: 2
+2023-01-19 09:22:41 Debug: 3
+2023-01-19 09:22:43 Debug: 4
+2023-01-19 09:23:36 Debug: 2
+2023-01-19 09:24:10 Debug: 3
+2023-01-19 09:24:11 Debug: 4
+2023-01-19 09:24:21 Debug: 2
+2023-01-19 09:24:24 Debug: 3
+2023-01-19 09:24:29 Debug: 4
+2023-01-20 08:04:15 Debug: Event 1 in file D:\xampp\htdocs\chemical\app\Controller\AssetEventsController.php on line 218 within the class AssetEventsController
+2023-01-20 08:11:07 Debug: Event 1 in file D:\xampp\htdocs\chemical\app\Controller\AssetEventsController.php on line 218 within the class AssetEventsController
+2023-01-31 05:27:35 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Menu.page_name_jp' in 'field list' in file FILE on line LINE within the class RolesController
+2023-01-31 05:28:34 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Menu.page_name_jp' in 'field list' in file FILE on line LINE within the class RolesController
+2023-01-31 05:29:09 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Menu.page_name_jp' in 'field list' in file FILE on line LINE within the class RolesController
+2023-01-31 05:30:41 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Menu.method_jp' in 'field list' in file FILE on line LINE within the class RolesController
+2023-08-30 08:53:24 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.login_id' in 'where clause' in file FILE on line LINE within the class UsersController
+2023-08-30 08:53:33 Debug: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.login_id' in 'where clause' in file FILE on line LINE within the class UsersController
+2023-09-06 07:15:54 Debug: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'read_limit' cannot be null in file FILE on line LINE within the class RolesController
+2023-09-06 07:17:57 Debug: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'read_limit' cannot be null in file FILE on line LINE within the class RolesController
+2023-09-06 08:41:16 Debug: Not Found in file FILE on line LINE within the class RolesController
+2023-09-06 08:41:37 Debug: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'read_limit' cannot be null in file FILE on line LINE within the class RolesController
